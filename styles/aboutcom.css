@@ -1,0 +1,122 @@
+/* HEADER */
+.hero {
+  background: url("/images/about-hero.jpg") no-repeat center center / cover;
+  background-position: center -100px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* O FIRMI */
+.overview {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.overview h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.overview p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* VREMENSKA LINIJA */
+.timeline {
+  background: #f9f9f9;
+  padding: 50px 20px;
+}
+
+.timeline h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.timeline-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.timeline-item {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.timeline-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.timeline-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* NAŠE KVALITETE */
+.core-values {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.core-values h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.values-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.value-box {
+  background-color: #1751d5;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  flex: 1;
+}
+
+.value-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.value-box p {
+  font-size: 1rem;
+  line-height: 1.6;
+}

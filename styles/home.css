@@ -1,0 +1,196 @@
+header {
+  background: url("../images/pic-1.jpg") no-repeat;
+  background-size: cover;
+  background-position: center -100px;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  color: #fff;
+  margin: 0;
+}
+
+/* UVOD KRATKO */
+.about {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding-top: 90px;
+  padding-bottom: 50px;
+  justify-content: space-around;
+}
+
+.about .text {
+  width: 455px;
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.about h2 {
+  font-size: 3rem;
+}
+
+.about img {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* USLUGE */
+.practice-areas {
+  text-align: center;
+  margin-left: -50px;
+  margin-right: -50px;
+  background: #1751d5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.practice-areas h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.practice-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 20px;
+  justify-items: center;
+  align-items: start;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.practice-item {
+  color: #333;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+.practice-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.practice-item h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.practice-item p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* RECENZIJE */
+.testimonial-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.testimonial-section h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.testimonial-carousel {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  line-height: normal !important;
+  flex: 0 0 200px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.testimonial-card:hover {
+  transform: scale(1.05);
+}
+
+.client-image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid royalblue;
+}
+
+.client-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonial-text {
+  font-size: 1.2em;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.testimonial-card h3 {
+  font-size: 1.3em;
+  margin: 10px 0 5px 0;
+  color: #333;
+}
+
+.testimonial-card .client-role {
+  font-size: 0.9em;
+  color: gray;
+}
+
+.family-companies {
+  padding: 30px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap; /* Makes it responsive */
+}
+
+.logo-container img {
+  max-width: 150px;
+  height: auto;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.logo-container img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
