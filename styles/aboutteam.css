@@ -46,7 +46,7 @@
   padding: 20px;
   text-align: center;
   width: 250px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px #ccc;
 }
 
 .team-member img {
@@ -60,7 +60,7 @@
 .team-member h3 {
   font-size: 1.5rem;
   margin-bottom: 5px;
-  color: #1751d5;
+  color: #274a59;
 }
 
 .team-member p {

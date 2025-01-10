@@ -57,6 +57,7 @@ nav ul ul {
   padding: 0;
   margin: 0;
   list-style: none;
+  border: 1px solid #ccc;
   border-radius: 10px;
 }
 
@@ -73,8 +74,9 @@ nav ul ul li a {
 }
 
 nav ul ul li a:hover {
-  background-color: #1751d5;
+  background-color: #274a59;
   color: #fff;
+  border-radius: 10px;
 }
 
 /* FOOTER GLOBALNI STIL */

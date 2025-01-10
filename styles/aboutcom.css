@@ -1,6 +1,6 @@
 /* HEADER */
 .hero {
-  background: url("/images/about-hero.jpg") no-repeat center center / cover;
+  background: url("../images/about-hero.jpg") no-repeat center center / cover;
   background-position: center -100px;
   height: 400px;
   display: flex;
@@ -102,7 +102,7 @@
 }
 
 .value-box {
-  background-color: #1751d5;
+  background-color: #274a59;
   color: #fff;
   border-radius: 10px;
   padding: 20px;

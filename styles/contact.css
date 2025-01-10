@@ -2,7 +2,7 @@
 .contact-hero {
   text-align: center;
   padding: 50px 20px;
-  background-color: #1751d5;
+  background-color: #274a59;
   color: white;
 }
 
@@ -36,7 +36,7 @@
 .contact-info h2 {
   font-size: 1.8em;
   margin-bottom: 15px;
-  color: #1751d5;
+  color: #274a59;
 }
 
 .contact-info p {
@@ -56,7 +56,7 @@
 .contact-form h2 {
   font-size: 1.8em;
   margin-bottom: 15px;
-  color: #1751d5;
+  color: #274a59;
 }
 
 .contact-form .form-group {
@@ -82,12 +82,12 @@
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: #1751d5;
+  border-color: #274a59;
 }
 
 .contact-form .submit-btn {
   display: block;
-  background-color: #1751d5;
+  background-color: #274a59;
   color: white;
   padding: 10px 20px;
   font-size: 1em;
@@ -97,5 +97,5 @@
 }
 
 .contact-form .submit-btn:hover {
-  background-color: #143ea3;
+  background-color: #002147;
 }
